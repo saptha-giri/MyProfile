@@ -1,18 +1,20 @@
 # MyProfile using React js
 
 
+## Screenshot MyProfile App
+
 ![screenshot 4](https://user-images.githubusercontent.com/43612718/46282383-fc140b00-c58e-11e8-86ab-98cda9c11706.png)
 
 
 
 
-##prerequisites to run chat bot
+## prerequisites to run chat bot
 
 - Node latest version
 - yarn node package model
 - Any Ide for example : "sublime text3" or "notepad ++"
 
-##Setup a Project
+## Setup a Project
 
 1. clone the current git repository
 use git
