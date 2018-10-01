@@ -1,13 +1,6 @@
 # MyProfile using React js
 
 
-## Screenshot MyProfile App
-
-![screenshot 4](https://user-images.githubusercontent.com/43612718/46282383-fc140b00-c58e-11e8-86ab-98cda9c11706.png)
-
-
-
-
 ## prerequisites to run chat bot
 
 - Node latest version
@@ -28,3 +21,8 @@ git clone https://github.com/saptha-giri/MyProfile.git
 
 ### we are done here, feel free to change the code
 ### Happy coding :wink:
+
+
+## Screenshot MyProfile App
+
+![screenshot 4](https://user-images.githubusercontent.com/43612718/46282383-fc140b00-c58e-11e8-86ab-98cda9c11706.png)
