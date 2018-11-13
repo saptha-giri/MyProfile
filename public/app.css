@@ -3,3 +3,17 @@
   flex-direction: column;
   min-height: 100vh;
 }
+
+::-webkit-scrollbar
+{
+  width: 6px;  
+}
+::-webkit-scrollbar-track
+{
+  background: #CFD8DC;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: #BD5D38;
+}

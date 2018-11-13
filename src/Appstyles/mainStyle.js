@@ -43,6 +43,7 @@ export default StyleSheet.create({
     marginBottom: 20
   },
   panelContainer:{
-  marginLeft: 30,marginRight:10,marginTop:50 
+    flex:1,
+    marginLeft: 30,marginRight:10,marginTop:50 
   }
 });

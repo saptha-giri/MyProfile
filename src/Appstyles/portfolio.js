@@ -10,14 +10,14 @@ export default StyleSheet.create({
 	subTitle:{
 		color:"#BD5D38",
 		fontSize:20,
-		fontWeight:"bold",
-		alignSelf:"center"
+		alignSelf:'center',
+		fontWeight:"bold"
 	},
 	sentance:{
 		color:"#868e96",
-		fontSize:15,
-		fontWeight:"bold",
+		fontSize:18
 	},
+
 	mainContainer:{flex:1,flexDirection:"row",marginLeft:40},
 
 	container:{
@@ -28,10 +28,16 @@ export default StyleSheet.create({
 	},
 	headerContainer:{
 		backgroundColor:"#fff",
-		padding:10,
+		padding:10
 	},
 	bodyContainer:{
 		alignItems:'center',
 		padding:20,
+	},
+
+	imageStyle:{
+		width:300,
+		height:500,
+		alignSelf:"center"
 	}
 });

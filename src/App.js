@@ -4,7 +4,7 @@ import mainStyle from "./Appstyles/mainStyle";
 
 import About from "./components/about";
 import Experience from "./components/experience";
-import Education from "./components/education";
+import Porfolio from "./components/portfolio";
 import Skills from "./components/skills";
 import Awards from "./components/awards";
 import myData from "./Appdata/myData.json";
@@ -15,7 +15,7 @@ export default class App extends React.Component {
     this.state = {
       about: { color: "#fff" },
       experience: {},
-      education: {},
+      portfolio: {},
       skills: {},
       awards: {},
       selected: "about"
@@ -26,7 +26,7 @@ export default class App extends React.Component {
     this.setState({
       about: {},
       experience: {},
-      education: {},
+      portfolio: {},
       skills: {},
       awards: {},
       [data]: { color: "#fff" },
@@ -42,9 +42,9 @@ export default class App extends React.Component {
     } else if(selected === "experience"){
       let data = JSON.stringify(myData.experience);
       return <Experience details={data} />;
-    }else if(selected === "education"){
-      let data = JSON.stringify(myData.education);
-      return <Education details={data}/>
+    }else if(selected === "portfolio"){
+      // let data = JSON.stringify(myData.portfolio);
+      return <Porfolio/>
     }else if(selected === "skills"){
       let data = JSON.stringify(myData.skills);
       return <Skills details={data}/>
@@ -78,10 +78,10 @@ export default class App extends React.Component {
             EXPERIENCE
           </Text>
           <Text
-            style={[mainStyle.linkText, this.state.education]}
-            onPress={() => this.textClick("education")}
+            style={[mainStyle.linkText, this.state.portfolio]}
+            onPress={() => this.textClick("portfolio")}
           >
-            EDUCATION
+            PORTFOLIO
           </Text>
           <Text
             style={[mainStyle.linkText, this.state.skills]}

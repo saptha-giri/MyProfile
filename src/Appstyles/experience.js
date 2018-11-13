@@ -4,7 +4,9 @@ export default StyleSheet.create({
 	title:{
 		color:"#343A40",
 		fontSize:40,
-		fontWeight:"bold"
+		fontWeight:"bold",
+		marginLeft:40,
+		alignSelf:'center'
 	},
 	subTitle:{
 		color:"#343A40",
@@ -17,7 +19,7 @@ export default StyleSheet.create({
 	},
 
 	container:{
-		marginTop:20,
+		marginLeft:40,
 	},
 	subContainer:{
 		marginTop:20,

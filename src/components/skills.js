@@ -10,58 +10,70 @@ class Skills extends React.Component {
 
     const frontend = skillsObj.frontend.map((data,key)=>{
       return(
-        <Text key={key} style={styles.sentance}> - {data}</Text>
+        <Text key={key} style={styles.sentance}> {data}</Text>
       )
     });
 
     const backend = skillsObj.backend.map((data,key)=>{
       return(
-        <Text key={key} style={styles.sentance}> - {data}</Text>
+        <Text key={key} style={styles.sentance}> {data}</Text>
       )
     });
 
     const database = skillsObj.database.map((data,key)=>{
       return(
-        <Text key={key} style={styles.sentance}> - {data}</Text>
+        <Text key={key} style={styles.sentance}> {data}</Text>
       )
     });
 
     const other = skillsObj.other.map((data,key)=>{
       return(
-        <Text key={key} style={styles.sentance}> - {data}</Text>
+        <Text key={key} style={styles.sentance}> {data}</Text>
       )
     });
 
     return (
-      <View style={{}}>
+      <View>
         <Text style={styles.title}>SKILLS</Text>
-        <View style={styles.container}>
-          <Text style={styles.subTitle}>FRONT END</Text>
-          <View style={{marginLeft:20}}>
-            {frontend}
+        <View style={styles.mainContainer}>
+          <View style={styles.container}>
+            <View style={styles.headerContainer}>
+              <Text style={styles.subTitle}>FRONT END</Text>
+            </View>
+            <View style={styles.bodyContainer}>
+              {frontend}
+            </View>
           </View>
-        </View>
 
-        <View style={styles.container}>
-          <Text style={styles.subTitle}>BACK END</Text>
-          <View style={{marginLeft:20}}>
-            {backend}
+          <View style={styles.container}>
+            <View style={styles.headerContainer}>
+              <Text style={styles.subTitle}>BACK END</Text>
+            </View>
+            <View style={styles.bodyContainer}>
+              {backend}
+            </View>
           </View>
-        </View>
 
-        <View style={styles.container}>
-          <Text style={styles.subTitle}>DATABASE</Text>
-          <View style={{marginLeft:20}}>
-            {database}
+          <View style={styles.container}>
+            <View style={styles.headerContainer}>
+              <Text style={styles.subTitle}>DATABASE</Text>
+            </View>
+            <View style={styles.bodyContainer}>
+              {database}
+            </View>
           </View>
-        </View>
 
-        <View style={styles.container}>
-          <Text style={styles.subTitle}>OTHER</Text>
-          <View style={{marginLeft:20}}>
-            {other}
+          <View style={styles.container}>
+            <View style={styles.headerContainer}>
+              <Text style={styles.subTitle}>OTHER</Text>
+            </View>
+            <View style={styles.bodyContainer}>
+              {other}
+            </View>
           </View>
+
         </View>
+        
       </View>
     );
   }

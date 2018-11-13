@@ -1,9 +1,11 @@
 {
 	"about": {
 		"name": "sapthagiri",
-		"email": "sapthagirirmsh8@gmail.com",
+		"email": "sapthagiri91@gmail.com",
+		"expert":"Javascript developer",
+		"phone": "+91-7299314890/+91-7904796923",
 		"address": "No 12 kvs nagar kollumedu avadi chennai - 600062",
-		"about": "I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+		"about": "Experienced software development engineer worked on various technology. Expert in developing complete software product from end to end. Always willing to learn and explore more in technology.\n\nExpert in Javascript technology, have developed a mobile application (product) and launched in playstore."
 	},
 	"experience": [{
 		"designation": "Senior Specalist",
@@ -41,10 +43,10 @@
 		"achievements": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring."
 	}],
 	"skills": {
-		"frontend": ["HTML5", "CSS3", "Bootstrap", "JQuery", "React", "React Native"],
-		"backend": ["PHP", "Node JS"],
-		"database": ["MongoDb"],
-		"other": ["Java", "Python"]
+		"frontend": ["HTML5", "CSS3", "Javascript", "Bootstrap", "JQuery", "React.js", "React Native"],
+		"backend": ["Node JS","Express"],
+		"database": ["MongoDB"],
+		"other": ["Java", "Python","REST API","JSON"]
 	},
 	"awards": {
 		"list": ["Workfusion ML engineering certified", "Best performer award", "Participated in HACKATHONS"]
