@@ -1,4 +1,4 @@
-# MyProfile using React js - (Write once run anyware)
+# MyProfile using React js - (Write once run anywere)
 
 
 ## prerequisites to run chat bot
